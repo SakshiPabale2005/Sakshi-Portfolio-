@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Event Hall Project</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b1020;
+    color: white;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    background: #142a5a;
+    display: flex;
+    align-items: center;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    background: #1f3b7a;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* VIDEO SECTION */
+.container {
+    padding: 50px;
+}
+
+video {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <button class="back-btn" onclick="history.back()">⬅ Back</button>
+</header>
+
+<div class="container">
+
+    <h1>Online Event Hall Management System</h1>
+
+    <video controls autoplay>
+        <source src="project 1.mp4" type="video/mp4">
+    </video>
+
+</div>
+
+</body>
+</html>
